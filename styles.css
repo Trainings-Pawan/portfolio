@@ -190,7 +190,7 @@
     color: var(--text-light);
   }
   .certification-card a {
-    color: var(--primary-color);
+    color: black;
     font-weight: 500;
   }
 
