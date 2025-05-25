@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Venugopal Pawan's Portfolio</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <h1>Venugopal Pawan</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#work-experience">Work Experience</a>
+    <a href="#skills">Skills</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+<main>
+  <section id="about" class="visible" style="animation-delay: 0.2s;">
+    <h2>About Me</h2>
+    <p>Accomplished Member of Technical Staff with 3 years of specialized experience in cloud computing and DevOps methodologies. Demonstrated expertise in architecting, deploying, and optimizing scalable solutions on AWS. Certified as an “AWS Solutions Architect Associate”, seeking to leverage expertise in cloud architecture, automation, and continuous integration /continuous deployment (CI/CD) to contribute to innovative projects and drive operational excellence in a dynamic technology environment.</p>
+  </section>
+  <section id="work-experience" style="animation-delay: 0.4s;">
+    <h2>Work Experience</h2>
+    <div class="work-experience-grid">
+      <article class="work-card">
+        <h3>Member Technical Staff</h3>
+        <p><strong>First American India, Bangalore</strong> (October 2022 - Present)</p>
+        <ul>
+          <li>Executed ITIL service management principles to deliver L1 and L2 support during disaster recovery projects, ensuring seamless operations and minimizing service disruption.</li>
+          <li>Automated routine operational tasks through Python scripting, leading to a 50% reduction in manual effort and increased team productivity.</li>
+          <li>Orchestrated robust monitoring solutions using ELK stack and Uptrends, resulting in a 40% improvement in incident detection and response times.</li>
+          <li>Developed and maintained comprehensive dashboards using Elastic search, delivering real-time insights on key system performance metrics for executive reporting.</li>
+          <li>Utilized Agile methodologies to manage project timelines and deliverables, ensuring 95%+ on-time project completion and alignment with business goals.</li>
+          <li>Conducted root cause analysis for recurring system issues, successfully reducing incident recurrence by 35% through targeted solutions.</li>
+          <li>Engaged in performance tuning and optimization of cloud resources on AWS, resulting in a 20% reduction in operational costs.</li>
+          <li>Collaborated with DevOps teams to integrate CI/CD pipelines, enhancing deployment frequency by 60% and improving overall software delivery performance.</li>
+          <li>Managed version control and code repositories across development teams, ensuring 99% code integrity and seamless collaboration using Git and GitHub.</li>
+          <li>Authored and maintained detailed documentation pages in Confluence & SharePoint, improving knowledge transfer and reducing onboarding time by 40% for new team members.</li>
+          <li>Facilitated user training sessions on new technologies and tools, increasing user adoption rates by 45% and enhancing overall system utilization.</li>
+          <li>Led vendor evaluations & technology assessments, influencing strategic investments and ensuring selection of best-fit solutions for business operations.</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+  <section id="skills" style="animation-delay: 0.8s;">
+    <h2>Skills</h2>
+    <div class="skills-list">
+      <span class="skill">AWS</span>
+      <span class="skill">Python</span>
+      <span class="skill">DevOps</span>
+      <span class="skill">Agile Methodologies</span>
+      <span class="skill">Git</span>
+      <span class="skill">Docker</span>
+      <span class="skill">Kubernetes</span>
+      <span class="skill">Terraform</span>
+      <span class="skill">Data Analysis</span>
+    </div>
+  </section>
+  <section id="certifications" style="animation-delay: 0.6s;">
+    <h2>Certifications</h2>
+    <div class="certification-card">
+      <h4>AWS Solutions Architect Associate</h4>
+      <a href="https://www.credly.com/badges/76503f91-165e-43a2-925f-aa147159eeb7/public_url" target="_blank" rel="noopener noreferrer">View Certification</a>
+    </div>
+    <div class="certification-card">
+      <h4>Python for Data Science and AI</h4>
+      <a href="https://coursera.org/share/08736679658b263a09f9ee5191c4cff4" target="_blank" rel="noopener noreferrer">View Certification</a>
+    </div>
+    <div class="certification-card">
+      <h4>Machine Learning with Python</h4>
+      <a href="https://coursera.org/share/6b07e8356a98fa47a687779b3414dd7a" target="_blank" rel="noopener noreferrer">View Certification</a>
+    </div>
+    <div class="certification-card">
+      <h4>Data Analysis with Python</h4>
+      <a href="https://coursera.org/share/302749aebf321e34e08406705a38929c" target="_blank" rel="noopener noreferrer">View Certification</a>
+    </div>
+    <div class="certification-card">
+      <h4>Data Visualization with Python</h4>
+      <a href="https://coursera.org/share/eefb389fe2db1508e925ca24a794edda" target="_blank" rel="noopener noreferrer">View Certification</a>
+    </div>
+  </section>
+  <section id="contact" style="animation-delay: 1s;">
+    <h2>Contact Me</h2>
+    <form id="contact-form" novalidate>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required autocomplete="off" placeholder="Your Name" />
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required autocomplete="off" placeholder="Your Email" />
+      <label for="message">Message</label>
+      <textarea id="message" name="message" required placeholder="Your message here..."></textarea>
+      <button type="submit">Send</button>
+      <div class="success-message" id="success-message" style="display:none;">Thank you! Your message has been sent.</div>
+    </form>
+  </section>
+</main>
+<footer>
+  <p>© 2024 Venugopal Pawan. All rights reserved.</p>
+  <p>
+    <a href="https://linkedin.com/in/venugopal-pawan" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 0h-14c-2.762 0-5 2.238-5 5v14c0 2.762 2.238 5 5 5h14c2.762 0 5-2.238 5-5v-14c0-2.762-2.238-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.268c-.967 0-1.75-.783-1.75-1.75 0-.968.783-1.75 1.75-1.75s1.75.782 1.75 1.75c0 .967-.783 1.75-1.75 1.75zm13.5 11.268h-3v-5.604c0-1.337-.027-3.058-1.865-3.058-1.865 0-2.151 1.456-2.151 2.961v5.701h-3v-10h2.879v1.367h.041c.401-.761 1.378-1.561 2.837-1.561 3.034 0 3.594 2 3.594 4.594v5.6z"/></svg>
+    </a>
+    <a href="https://github.com/venugopal-pawan" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577v-2.234c-3.338.725-4.033-1.415-4.033-1.415-.546-1.387-1.333-1.757-1.333-1.757-1.089-.745.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.834 2.807 1.304 3.492.997.108-.775.418-1.305.762-1.604-2.665-.3-5.466-1.334-5.466-5.93 0-1.31.47-2.38 1.236-3.22-.124-.303-.536-1.523.117-3.176 0 0 1.008-.322 3.301 1.23a11.5 11.5 0 013.002-.404c1.02.005 2.045.138 3.003.404 2.291-1.552 3.297-1.23 3.297-1.23.655 1.653.243 2.873.12 3.176.77.84 1.234 1.91 1.234 3.22 0 4.609-2.807 5.625-5.479 5.921.43.372.823 1.103.823 2.222v3.293c0 .319.216.694.825.576C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+    </a>
+  </p>
+</footer>
+<script>
+  // Scroll reveal effect for sections 
+  function revealSections() {
+    const sections = document.querySelectorAll('main section');
+    const triggerBottom = window.innerHeight / 5 * 4;
+
+    sections.forEach(section => {
+      const sectionTop = section.getBoundingClientRect().top;
+
+      if(sectionTop < triggerBottom) {
+        section.classList.add('visible');
+      }
+    });
+  }
+
+  window.addEventListener('scroll', revealSections);
+  window.addEventListener('load', revealSections);
+
+  // Simple contact form submission simulation (no backend)
+  const form = document.getElementById('contact-form');
+  const successMessage = document.getElementById('success-message');
+
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    if (!form.checkValidity()) {
+      form.reportValidity();
+      return;
+    }
+
+    // Simulate sending message
+    successMessage.style.display = 'block';
+
+    // Clear form
+    form.reset();
+
+    // Hide success message after 5 seconds
+    setTimeout(() => {
+      successMessage.style.display = 'none';
+    }, 5000);
+  });
+</script>
+</body>
+</html>
